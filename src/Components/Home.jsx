@@ -3,7 +3,7 @@ import Movie from "./Movie";
 import MovieDetails from "./MovieDetails";
 import { useNavigate } from "react-router-dom";
 
-const url = `http://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}`;
+const url = `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_API_KEY}`;
 
 function Home() {
   const [movies, setMovies] = useState([]);
