@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-const API = 'http://www.omdbapi.com/?apikey=73477204';
+const API = 'https://www.omdbapi.com/?apikey=73477204';
 
 function MovieDetails() {
   const { id } = useParams();
